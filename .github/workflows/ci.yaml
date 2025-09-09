@@ -1,0 +1,40 @@
+---
+name: CI
+
+permissions:
+  checks: write
+  contents: write
+  packages: write
+  statuses: write
+  pull-requests: write
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*.*.*"
+    paths-ignore:
+      - "README.md"
+      - "OWNERS"
+      - "renovate.json"
+  pull_request_target:
+    branches:
+      - main
+    paths-ignore:
+      - "README.md"
+      - "OWNERS"
+      - "renovate.json"
+
+jobs:
+  crossplane-provider-ci:
+    uses: acp/crossplane-provider-ci-action/.github/workflows/crossplane-provider-ci.yaml@main
+    permissions:
+      checks: write
+      contents: write
+      packages: write
+      statuses: write
+      pull-requests: write
+    with:
+      provider-name: provider-mongodb
+    secrets: inherit
