@@ -4,7 +4,7 @@ metadata:
   name: provider-mongodb
   annotations:
     meta.crossplane.io/maintainer: IaC Platform team
-    meta.crossplane.io/source: github.com/svchaudhari/provider-mongodb-swap/    meta.crossplane.io/license: LICENSE
+    meta.crossplane.io/source: github.com/svchaudhari/Original-provider-mongodb/    meta.crossplane.io/license: LICENSE
     meta.crossplane.io/description: |
       The App Gateway Crossplane provider adds support for
       managing App Gateway resources in Kubernetes.

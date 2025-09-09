@@ -1,4 +1,4 @@
-module github.com/svchaudhari/provider-mongodb-swap/
+module github.com/svchaudhari/Original-provider-mongodb/
 go 1.19
 
 require (

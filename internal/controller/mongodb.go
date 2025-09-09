@@ -20,9 +20,9 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/controller"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	"github.com/svchaudhari/provider-mongodb-swap/internal/controller/config"
-	"github.com/svchaudhari/provider-mongodb-swap/internal/controller/organization"
-	"github.com/svchaudhari/provider-mongodb-swap/internal/controller/vpcendpoint"
+	"github.com/svchaudhari/Original-provider-mongodb/internal/controller/config"
+	"github.com/svchaudhari/Original-provider-mongodb/internal/controller/organization"
+	"github.com/svchaudhari/Original-provider-mongodb/internal/controller/vpcendpoint"
 )
 
 // Setup creates all Ingress controllers with the supplied logger and adds them to

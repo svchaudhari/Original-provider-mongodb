@@ -39,10 +39,10 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/reconciler/managed"
 	"github.com/crossplane/crossplane-runtime/pkg/resource"
 
-	"github.com/svchaudhari/provider-mongodb-swap/apis/organization/v1alpha1"
-	apisv1alpha1 "github.com/svchaudhari/provider-mongodb-swap/apis/v1alpha1"
-	svc "github.com/svchaudhari/provider-mongodb-swap/internal/clients/atlas"
-	"github.com/svchaudhari/provider-mongodb-swap/internal/controller/features"
+	"github.com/svchaudhari/Original-provider-mongodb/apis/organization/v1alpha1"
+	apisv1alpha1 "github.com/svchaudhari/Original-provider-mongodb/apis/v1alpha1"
+	svc "github.com/svchaudhari/Original-provider-mongodb/internal/clients/atlas"
+	"github.com/svchaudhari/Original-provider-mongodb/internal/controller/features"
 )
 
 const (
